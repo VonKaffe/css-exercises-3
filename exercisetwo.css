@@ -1,0 +1,24 @@
+h1 {visibility: visible;}
+
+ li {
+     display: inline;
+     list-style-type: none;
+     padding-right: 20px;
+     border: 2px solid green;
+     box-sizing: border-box;
+     padding:10px; border-radius:5px;
+     color:white;
+     background-color:green;
+
+
+ }
+
+
+ li:first-child{padding:10px; border:2px solid green; box-sizing:content-box;  border-radius:5px;}
+
+ li:nth-child(2) {
+     padding: 10px;
+     border: 2px solid green;
+     box-sizing: border-box;
+     border-radius:5px;
+ }
